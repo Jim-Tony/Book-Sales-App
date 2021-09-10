@@ -1,0 +1,84 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-8 text-center">
+            <h1 class="diplay-3 mt-3 pt-5">
+              Think and Grow Rich
+              </h1><p class="lead">Millions of copies sold worldwide</p>
+        <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="100"
+          data-name="Think and grow rich"
+          data-description="Written by Napolean Hill"
+          data-image="/img/icon.png"
+          data-locale="auto">
+        </script>
+      </form>
+      </div>
+      <div class="col-md-2">
+          <img src="/img/book.jpg" class="img-fluid">
+        </div>
+        {{!-- Second Book --}}
+        <div class="col-md-8  text-center">
+            <h1 class="diplay-3 mt-3 pt-5">
+              How to Win Friends and Influence People
+              </h1><p class="lead">Millions of copies sold worldwide</p>
+        <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="100"
+          data-name="How to win friends and inflence people"
+          data-description="Written by Dale Carnegie"
+          data-image="/img/icon.png"
+          data-locale="auto">
+        </script>
+      </form>
+      </div>
+        <div class="col-md-2 mt-4">
+          <img src="/img/book2.jpg" class="img-fluid">
+        </div>
+        {{!-- Third Book --}}
+        <div class="col-md-8 text-center">
+            <h1 class="diplay-3 mt-3 pt-5">
+              Nelson Mandela - The Struggle is my Life
+              </h1><p class="lead">"The Man with Struggles"</p>
+        <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="100"
+          data-name="Nelson Mandela"
+          data-description="The Struggle is my Life"
+          data-image="/img/icon.png"
+          data-locale="auto">
+        </script>
+      </form>
+      </div>
+      <div class="col-md-2 mt-4">
+          <img src="/img/book4.jpg" class="img-fluid">
+        </div>
+        {{!-- Fourth book --}}
+        <div class="col-md-8 text-center">
+            <h1 class="diplay-3 mt-3 pt-5">
+              Ernesto Che Guevara
+              </h1><p class="lead">"Grab the revolutionary atmosphere"</p>
+        <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="100"
+          data-name="Ernesto Che Guevara"
+          data-description="Written by I.Lavretsky"
+          data-image="/img/icon.png"
+          data-locale="auto">
+        </script>
+      </form>
+      </div>
+      <div class="col-md-2 mt-4">
+          <img src="/img/book3.jpg" class="img-fluid">
+        </div>
+
+    </div>
+</section>
