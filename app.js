@@ -3,7 +3,7 @@ const keys = require('./config/keys')
 const stripe = require('stripe')(keys.stripeSecretKey);
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
-const { default: Stripe } = require('stripe');
+// const { default: Stripe } = require('stripe');
 const app = express();
 
 // Handle Middleware
